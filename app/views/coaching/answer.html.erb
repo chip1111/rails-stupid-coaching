@@ -1,0 +1,14 @@
+
+<div class="container text-center answer-header">
+  <!-- NEED TO PUT OUR QUESTION -->
+  <p>You asked:</p>
+
+  <h3><%= @question %></h3>
+  <!-- THEN NEED TO PUT COACH ANSWER -->
+  <p>Your coach said:</p>
+  <h3><%= @answer %></h3>
+</div>
+<div class="container text-center another-question">
+  <!-- THEN LINK BACK TO ASK PAGE -->
+  <%= link_to "Ask Another Question", ask_path %>
+</div>
